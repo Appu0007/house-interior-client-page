@@ -325,7 +325,7 @@ body {
     width: fit-content;
     display: none;
     position: relative;
-    left: 64%;
+    left: 66%;
     top: 114px;
     /* background-color: rgb(214, 225, 227); */
     margin: 0px;
@@ -350,7 +350,7 @@ body {
   }
   #humburger {
     background-color: rgb(22, 140, 148);
-    width: 110px;
+    width: 120px;
     height: 100px;
     box-shadow: 0 0 10px gray;
     display: flex;
@@ -369,9 +369,10 @@ body {
     flex-direction: column;
     color: rgb(2, 42, 65);
     text-align: center;
+    width: 100%;
   }
   .container-main-1 {
-    width: 100%;
+    width: 500px;
   }
   .img {
     width: 500px;
@@ -381,7 +382,7 @@ body {
     width: 500px;
     object-fit: cover;
     box-shadow: 0 0 15px gray;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
   .line-1 {
     width: 35px;
@@ -426,7 +427,8 @@ body {
 @media screen and (max-width: 500px) {
   .container-4 {
     display: grid;
-    width: 100%;
+    width: 500px;
+    position: relative;
   }
 
   .heading-4 {
@@ -448,21 +450,23 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center;
-      margin-top: 80%;
+      margin-top: 400px;
       width: 500px;
       height: 200px;
       background-color: rgb(18, 136, 136);
+      position: relative;
     }
   }
   @media screen and (max-width: 500px) {
     .container-6 {
       display: flex;
-
+      position: relative;
       text-align: center;
+      width: 430px;
     }
 
     .mail-box {
-      width: 100%;
+      width: 500px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -487,7 +491,7 @@ body {
   }
   @media screen and (max-width: 500px) {
     .container-7 {
-      width: 480px;
+      width: 500px;
       height: 270px;
       background-color: rgb(18, 136, 136);
       margin-top: 80px;
